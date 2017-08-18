@@ -202,3 +202,188 @@ hr {
 p {
     padding: 5px;
 }
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+a:visited {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+a:hover {
+    color: mistyrose;
+    text-decoration: none;
+}
+
+@media screen and (max-width:980px) {
+
+    #selfie {
+        width: 100%;
+        height: auto;
+        padding: 20px 0 20px 0;
+    }
+
+    #hangman, #rpggame, #triviagame, #widget, #rockpaperscissors, .portfolio {
+        width: 100%;
+        height: auto;
+        padding: 20px 0 0 0;
+        float: left;
+    }
+
+    .nameheader {
+        margin-left: 100px;
+        padding-top: 20px;
+    }
+    .aboutheader {
+        margin-left: 27%;
+        padding-top: 5px;
+    }
+    .portfolioheader {
+        padding-top: 5px;
+    }
+    .contactheader {
+        padding-top: 5px;
+    }
+    #hangmanHead, #rpggameHead, #triviagameHead, #widgetHead, #rockpaperscissorsHead {
+        width: 100%;
+        margin: 0;
+        left: 0;
+        bottom: 5%;
+    }
+    #aboutmetext {
+        box-sizing: border-box;
+        width: 48%;
+    }
+    #connectwithme {
+        box-sizing: border-box;
+        width: 22%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #nameheader {
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    #aboutheader {
+        margin-left: 33%;
+        padding-top: 5px;
+    }
+    #portfolioheader {
+        padding-top: 5px;
+    }
+    #contactheader {
+        padding-top: 5px;
+    }
+
+    #selfie {
+        box-sizing: border-box;
+        width: 50%;
+        height: auto;
+        padding: 20px 20px 20px 0;
+    }
+    #hangman, #rpggame, #triviagame, #widget, #rockpaperscissors, .portfolio {
+        height: auto;
+        padding: 20px 0 20px 0;
+        float: left;
+    }
+    #hangman, #rpggame, #triviagame, #widget, #rockpaperscissors {
+        box-sizing: border-box;
+        width: 50%;
+        padding: 20px 10px 0 20px;
+    }
+    #portfolio {
+        width: 100%;
+    }
+    #hangmanHead, #rpggameHead, #triviagameHead, #widgetHead, #rockpaperscissorsHead {
+        width: 100%;
+        margin: 0;
+        left: 20px;
+        bottom: 10%;
+    }
+
+    #aboutmetext {
+        width: 100%;
+        max-width: 730px;
+        margin: 20px;
+    }
+    #connectwithme{
+        width: 100%;
+        max-width: 730px;
+        margin: 20px 20px 80px 20px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:640px) {
+    #nameheader {
+        width: 100%;
+        box-sizing: border-box;
+        padding-bottom: 50px;
+        margin: 0;
+    }
+
+    #aboutheader {
+        box-sizing: border-box;
+        width: 33.3%;
+        float: left;
+        text-align: center;
+        padding: 20px 0 20px 0;
+        margin: 0;
+    }
+    #portfolioheader {
+        box-sizing: border-box;
+        width: 33.3%;
+        float: left;
+        text-align: center;
+        padding: 20px 0 20px 0;
+        margin: 0;
+    }
+    #connectwithme {
+        box-sizing: border-box;
+        width: 33.3%;
+        float: left;
+        text-align: center;
+        padding: 20px 0 20px 0;
+        margin: 0;
+    }
+
+    #selfie {
+        width: 100%;
+        height: auto;
+        padding: 20px 0 20px 0;
+    }
+
+    #hangman, #rpggame, #triviagame, #widget, #rockpaperscissors, .portfolio {
+        width: 100%;
+        height: auto;
+        padding: 20px 0 0 0;
+        float: left;
+    }
+    #hangmanHead, #rpggameHead, #triviagameHead, #widgetHead, #rockpaperscissorsHead {
+        width: 100%;
+        margin: 0;
+        left: 0;
+        bottom: 5%;
+    }
+
+   #aboutmetext {
+        width: 100%;
+        max-width: 600px;
+        margin: 20px;
+    }
+    .connectContent {
+        width: 100%;
+        max-width: 600px;
+        margin: 20px 20px 80px 20px;
+        text-align: left;
+    }
+
+    .preFooter {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+}
